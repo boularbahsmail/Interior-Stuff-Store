@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
 html,
 body {
   padding: 0;
@@ -18,4 +21,5 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
 }
