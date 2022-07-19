@@ -39,32 +39,32 @@ const Navbar = () => {
 
             <nav>
                 <ul className={`menu hidden flex-1 justify-center items-center flex-col absolute left-0 top-0 py-20 pt-16 px-4 bg-white z-40 h-full w-full lg:w-unset lg:h-auto lg:bg-transparent lg:flex lg:flex-row lg:static lg:left-unset lg:top-unset lg:py-0 gap-4 ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
-                    <li className="font-semibold text-neutral-500 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
+                    <li className="font-semibold text-zinc-600 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
                         <Link href="">
                             Mattress
                         </Link>
                     </li>
-                    <li className="font-semibold text-neutral-500 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
+                    <li className="font-semibold text-zinc-600 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
                         <Link href="" >
                             Bedroom
                         </Link>
                     </li>
-                    <li className="font-semibold text-neutral-500 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
+                    <li className="font-semibold text-zinc-600 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
                         <Link href="">
                             Living Room
                         </Link>
                     </li>
-                    <li className="font-semibold text-neutral-500 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
+                    <li className="font-semibold text-zinc-600 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
                         <Link href="">
                             Dining
                         </Link>
                     </li>
-                    <li className="font-semibold text-neutral-500 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
+                    <li className="font-semibold text-zinc-600 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
                         <Link href="">
                             Home Office
                         </Link>
                     </li>
-                    <li className="font-semibold text-neutral-500 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
+                    <li className="font-semibold text-zinc-600 ease-in-out duration-150 hover:text-red-500 w-max" title="Bedroom" onClick={() => closeMenu()}>
                         <Link href="">
                             Office
                         </Link>
